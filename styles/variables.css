@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: Inter-Variable, sans-serif;
+  --accent-font: PressStart2P-Regular, sans-serif;
+  --card-title-font-weight: 700;
+  --card-text-font-weight: 400;
+
+  --accent-color: #000;
+
+  --background-color: #fff;
+  --background-gradient-one: #d3d3d3;
+  --background-gradient-two-start: #e7e7e7;
+  --background-gradient-two-end: #1a1a1a;
+}
