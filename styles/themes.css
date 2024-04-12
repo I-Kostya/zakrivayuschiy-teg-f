@@ -12,6 +12,7 @@
   --card-text-font-weight: 400;
 
   --accent-color: #000;
+  --accent-inverse-color: #fff;
 
   --background-color: #fff;
   --background-gradient-one: #d3d3d3;
@@ -24,6 +25,7 @@
   --card-text-font-weight: 465;
 
   --accent-color: #00cc14;
+  --accent-inverse-color: #f92de5;
   
   --background-color: #000;
   --background-gradient-one: #000;
@@ -33,9 +35,12 @@
 
 @media(prefers-color-scheme: dark) {
   :root {
+    --card-title-font-weight: 785;
+    --card-text-font-weight: 465;
+  
     --accent-color: #00cc14;
+    --accent-inverse-color: #00cc14;
     
-
     --background-color: #000;
     --background-gradient-one: #000;
     --background-gradient-two-start: #007f0c;
