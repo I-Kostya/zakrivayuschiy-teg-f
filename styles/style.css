@@ -14,12 +14,6 @@
 
 */
 
-@supports (font-variation-settings: normal) {
-  .page {
-      font-family: var(--main-font, sans-serif);
-  }
-}
-
 .page {
   font-family: var(--main-font, sans-serif);
   background-color: var(--background-color);
