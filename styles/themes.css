@@ -15,22 +15,22 @@
   --accent-inverse-color: #fff;
 
   --background-color: #fff;
-  --background-gradient-one: #d3d3d3;
-  --background-gradient-two-start: #e7e7e7;
-  --background-gradient-two-end: #1a1a1a;
+  --background-gradient-stripes: #d3d3d3 0 2px, transparent 2px 4px;
+  --background-gradient-evenly: #e7e7e7 0%, #1a1a1a 100%;
 }
 
 :root.theme-dark {
+  --main-font: Inter-Variable, sans-serif;
+  --accent-font: PressStart2P-Regular, fantasy;
   --card-title-font-weight: 785;
   --card-text-font-weight: 465;
 
   --accent-color: #00cc14;
   --accent-inverse-color: #00cc14;
-  
+
   --background-color: #000;
-  --background-gradient-one: #000;
-  --background-gradient-two-start: #007f0c;
-  --background-gradient-two-end: #004306;
+  --background-gradient-stripes: #000 0 2px, transparent 2px 4px;
+  --background-gradient-evenly: #007f0c 0%, #004306 100%;
 }
 
 @media(prefers-color-scheme: dark) {
@@ -40,10 +40,9 @@
   
     --accent-color: #00cc14;
     --accent-inverse-color: #00cc14;
-    
+
     --background-color: #000;
-    --background-gradient-one: #000;
-    --background-gradient-two-start: #007f0c;
-    --background-gradient-two-end: #004306;
+    --background-gradient-stripes: #000 0 2px, transparent 2px 4px;
+    --background-gradient-evenly: #007f0c 0%, #004306 100%;
   }
 }

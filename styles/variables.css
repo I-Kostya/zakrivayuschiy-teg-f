@@ -7,9 +7,9 @@
 
   --accent-color: #000;
   --accent-inverse-color: #fff;
+  --heart-color: #f00;
 
   --background-color: #fff;
-  --background-gradient-one: #d3d3d3;
-  --background-gradient-two-start: #e7e7e7;
-  --background-gradient-two-end: #1a1a1a;
+  --background-gradient-stripes: #d3d3d3 0 2px, transparent 2px 4px;
+  --background-gradient-evenly: #e7e7e7 0%, #1a1a1a 100%;
 }
