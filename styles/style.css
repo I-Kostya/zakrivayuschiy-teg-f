@@ -15,6 +15,10 @@
 */
 
 .page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-end: clamp(6.25rem, 6.063rem + 0.6vh, 6.438rem);
   font-family: var(--main-font, sans-serif);
   background-color: var(--background-color);
   background-image:
@@ -25,9 +29,6 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-variation-settings: 'wght' var(--card-text-font-weight);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .header {
@@ -69,7 +70,6 @@
   margin-inline-start: 18px;
   border: none;
   font-size: 14px;
-  text-transform: uppercase;
   background-color: inherit;
   transition: opacity 0.3s ease;
 }
@@ -106,10 +106,10 @@
 .theme-menu__button::after {
   content: '';
   display: block;
-  inline-size: 0%;
-  block-size: 2px;
   background-color: var(--accent-color);
   transition: inline-size 0.3s ease;
+  inline-size: 0%;
+  block-size: 2px;
 }
 
 .theme-menu__button:focus-visible::after {
@@ -143,8 +143,8 @@
 
 .card__image {
   display: block;
-  inline-size: 100%;
   object-fit: cover;
+  inline-size: 100%;
 }
 
 .image__filter-grayscale {
@@ -234,10 +234,10 @@ or (-webkit-text-stroke: 1px var(--background-color))) {
 }
 
 .card__icon-button {
-  block-size: 40px;
   border: 2px solid transparent;
   padding: 0;
   transition: border 0.3s ease;
+  block-size: 40px;
 }
 
 .card__icon-button:focus {
@@ -271,12 +271,12 @@ or (-webkit-text-stroke: 1px var(--background-color))) {
   top: 0;
   left: 0;
   display: block;
-  inline-size: 0%;
-  block-size: 100%;
   background-color: var(--accent-color);
   transition-duration: 0.5s;
   transition-property: inline-size;
   transition-timing-function: ease-in-out;
+  inline-size: 0%;
+  block-size: 100%;
 }
 
 .button-decor:hover::before {
@@ -330,7 +330,6 @@ or (-webkit-text-stroke: 1px var(--background-color))) {
   justify-content: space-between;
   align-items: start;
   gap: 30px;
-  text-transform: uppercase;
 }
 
 .form__content-wrapper {
@@ -351,7 +350,6 @@ or (-webkit-text-stroke: 1px var(--background-color))) {
 .button__dialog {
   inline-size: 100%;
   block-size: 38px;
-  text-transform: uppercase;
 }
 
 @media screen and (width <= 375px) {
