@@ -46,7 +46,7 @@
   padding-block-start: clamp(7.5rem, 6.5rem + 3.2vw, 8.5rem);
   padding-block-end: 20px;
   color: var(--accent-color);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, fantasy);
   text-transform: uppercase;
   background-color: var(--background-color);
   inline-size: clamp(23.438rem, 3.375rem + 64.2vw, 43.5rem);
@@ -188,7 +188,7 @@
   top: 25px;
   right: 25px;
   opacity: 0.5;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, fantasy);
   font-size: 14px;
   text-shadow:
     -1px 0 var(--background-color), 
@@ -233,7 +233,7 @@ or (-webkit-text-stroke: 1px var(--background-color))) {
   position: relative;
   border: 2px solid var(--accent-color);
   color: var(--accent-color);
-  font-family: var(--accent-font, sans-serif);
+  font-family: var(--accent-font, fantasy);
   background-color: var(--background-color);
   cursor: pointer;
 }
@@ -344,7 +344,7 @@ or (-webkit-text-stroke: 1px var(--background-color))) {
 .button__text {
   border: none;
   color: var(--accent-color);
-  font-family: var(--accent-font, sans-serif);
+  font-family: var(--accent-font, fantasy);
   font-size: 14px;
   line-height: 21px;
   background-color: var(--background-color);

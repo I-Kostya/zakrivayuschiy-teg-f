@@ -7,7 +7,7 @@
 
 :root.theme-light {
   --main-font: Inter-Variable, sans-serif;
-  --accent-font: PressStart2P-Regular, sans-serif;
+  --accent-font: PressStart2P-Regular, fantasy;
   --card-title-font-weight: 700;
   --card-text-font-weight: 400;
 
